@@ -1,0 +1,55 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:TTT-{MM}-{abc}-{####}",
+ "creation": "2025-01-01 13:00:15.284348",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "abc",
+  "mno",
+  "pqr"
+ ],
+ "fields": [
+  {
+   "fieldname": "abc",
+   "fieldtype": "Data",
+   "label": "ABC"
+  },
+  {
+   "fieldname": "mno",
+   "fieldtype": "Data",
+   "label": "MNO"
+  },
+  {
+   "fieldname": "pqr",
+   "fieldtype": "Data",
+   "label": "PQR"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-01-01 13:04:00.243797",
+ "modified_by": "Administrator",
+ "module": "Programming Module",
+ "name": "Naming4 doctype",
+ "naming_rule": "Expression (old style)",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

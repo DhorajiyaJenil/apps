@@ -1,0 +1,29 @@
+{
+ "add_total_row": 0,
+ "columns": [],
+ "creation": "2024-12-30 12:13:35.791110",
+ "disabled": 0,
+ "docstatus": 0,
+ "doctype": "Report",
+ "filters": [],
+ "idx": 0,
+ "is_standard": "Yes",
+ "letter_head": "Test letter head",
+ "letterhead": null,
+ "modified": "2024-12-30 12:14:38.297929",
+ "modified_by": "Administrator",
+ "module": "Programming Module",
+ "name": "practice query report",
+ "owner": "Administrator",
+ "prepared_report": 0,
+ "query": "SELECT student_name as a \"student name\"\nFROM `tabpractice`",
+ "ref_doctype": "practice",
+ "report_name": "practice query report",
+ "report_type": "Query Report",
+ "roles": [
+  {
+   "role": "System Manager"
+  }
+ ],
+ "timeout": 0
+}

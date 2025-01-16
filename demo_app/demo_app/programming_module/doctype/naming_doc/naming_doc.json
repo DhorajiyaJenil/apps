@@ -1,0 +1,56 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:aaa",
+ "creation": "2025-01-01 12:33:45.839337",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "aaa",
+  "bbb",
+  "ccc"
+ ],
+ "fields": [
+  {
+   "fieldname": "aaa",
+   "fieldtype": "Data",
+   "label": "aaa",
+   "unique": 1
+  },
+  {
+   "fieldname": "bbb",
+   "fieldtype": "Data",
+   "label": "bbb"
+  },
+  {
+   "fieldname": "ccc",
+   "fieldtype": "Data",
+   "label": "ccc"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-01-01 12:37:16.526176",
+ "modified_by": "Administrator",
+ "module": "Programming Module",
+ "name": "Naming doc",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

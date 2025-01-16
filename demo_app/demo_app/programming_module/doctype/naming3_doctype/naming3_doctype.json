@@ -1,0 +1,55 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": " PRE.#####",
+ "creation": "2025-01-01 12:49:10.888214",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "abc",
+  "erp",
+  "mno"
+ ],
+ "fields": [
+  {
+   "fieldname": "abc",
+   "fieldtype": "Data",
+   "label": "ABC"
+  },
+  {
+   "fieldname": "erp",
+   "fieldtype": "Data",
+   "label": "ERP"
+  },
+  {
+   "fieldname": "mno",
+   "fieldtype": "Data",
+   "label": "MNO"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-01-01 12:51:24.583207",
+ "modified_by": "Administrator",
+ "module": "Programming Module",
+ "name": "Naming3 doctype",
+ "naming_rule": "Expression (old style)",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

@@ -1,0 +1,38 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-12-19 14:41:27.939980",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "images_name",
+  "url"
+ ],
+ "fields": [
+  {
+   "fieldname": "images_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Images Name"
+  },
+  {
+   "fieldname": "url",
+   "fieldtype": "Attach",
+   "in_list_view": 1,
+   "label": "URL"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-12-20 10:03:07.689378",
+ "modified_by": "Administrator",
+ "module": "Programming Module",
+ "name": "Images",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

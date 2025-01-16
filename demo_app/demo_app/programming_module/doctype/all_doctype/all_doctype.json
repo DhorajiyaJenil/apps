@@ -1,0 +1,291 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "Prompt",
+ "creation": "2024-12-30 20:22:56.690701",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "auto_complete",
+  "attach",
+  "attach_image",
+  "barcode",
+  "button",
+  "check",
+  "data_umyb",
+  "code",
+  "currency",
+  "data",
+  "date",
+  "datetime",
+  "duration",
+  "float",
+  "heading",
+  "html",
+  "html_editor",
+  "column_break_3m9l",
+  "icon",
+  "image",
+  "int",
+  "json",
+  "last_name",
+  "link",
+  "long_text",
+  "markdown_editor",
+  "password",
+  "percent",
+  "read_only",
+  "rating",
+  "phone",
+  "column_break_gezc",
+  "type",
+  "name1",
+  "signature",
+  "small_text",
+  "table",
+  "multi",
+  "text_editor",
+  "text",
+  "time"
+ ],
+ "fields": [
+  {
+   "fieldname": "data_umyb",
+   "fieldtype": "Data",
+   "label": "no copy",
+   "no_copy": 1
+  },
+  {
+   "fieldname": "code",
+   "fieldtype": "Code",
+   "label": "code"
+  },
+  {
+   "fieldname": "currency",
+   "fieldtype": "Currency",
+   "label": "currency"
+  },
+  {
+   "fieldname": "data",
+   "fieldtype": "Data",
+   "label": "data"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "date"
+  },
+  {
+   "fieldname": "datetime",
+   "fieldtype": "Datetime",
+   "label": "datetime"
+  },
+  {
+   "fieldname": "duration",
+   "fieldtype": "Duration",
+   "label": "duration"
+  },
+  {
+   "fieldname": "float",
+   "fieldtype": "Float",
+   "label": "float"
+  },
+  {
+   "fieldname": "heading",
+   "fieldtype": "Heading",
+   "label": "heading"
+  },
+  {
+   "fieldname": "html_editor",
+   "fieldtype": "HTML Editor",
+   "label": "html editor"
+  },
+  {
+   "fieldname": "icon",
+   "fieldtype": "Icon",
+   "label": "icon"
+  },
+  {
+   "fieldname": "image",
+   "fieldtype": "Image",
+   "label": "image"
+  },
+  {
+   "fieldname": "int",
+   "fieldtype": "Int",
+   "label": "int"
+  },
+  {
+   "fieldname": "json",
+   "fieldtype": "JSON",
+   "label": "json"
+  },
+  {
+   "fieldname": "link",
+   "fieldtype": "Link",
+   "label": "link",
+   "options": "ToDo"
+  },
+  {
+   "fieldname": "long_text",
+   "fieldtype": "Long Text",
+   "label": "long text"
+  },
+  {
+   "fieldname": "markdown_editor",
+   "fieldtype": "Markdown Editor",
+   "label": "markdown editor"
+  },
+  {
+   "fieldname": "password",
+   "fieldtype": "Password",
+   "label": "password"
+  },
+  {
+   "fieldname": "percent",
+   "fieldtype": "Percent",
+   "label": "percent"
+  },
+  {
+   "fieldname": "read_only",
+   "fieldtype": "Read Only",
+   "label": "read only"
+  },
+  {
+   "fieldname": "rating",
+   "fieldtype": "Rating",
+   "label": "rating"
+  },
+  {
+   "fieldname": "signature",
+   "fieldtype": "Signature",
+   "label": "signature"
+  },
+  {
+   "fieldname": "small_text",
+   "fieldtype": "Small Text",
+   "label": "small text"
+  },
+  {
+   "fieldname": "table",
+   "fieldtype": "Table",
+   "label": "table",
+   "options": "student marks"
+  },
+  {
+   "fieldname": "text_editor",
+   "fieldtype": "Text Editor",
+   "label": "text editor",
+   "options": "student marks"
+  },
+  {
+   "allow_in_quick_entry": 1,
+   "fieldname": "text",
+   "fieldtype": "Text",
+   "label": "text"
+  },
+  {
+   "fieldname": "time",
+   "fieldtype": "Time",
+   "label": "time"
+  },
+  {
+   "fieldname": "column_break_gezc",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "phone",
+   "fieldtype": "Phone",
+   "label": "phone"
+  },
+  {
+   "fieldname": "auto_complete",
+   "fieldtype": "Autocomplete",
+   "label": "auto complete"
+  },
+  {
+   "fieldname": "attach",
+   "fieldtype": "Attach",
+   "label": "attach"
+  },
+  {
+   "fieldname": "attach_image",
+   "fieldtype": "Attach Image",
+   "label": "attach image"
+  },
+  {
+   "fieldname": "barcode",
+   "fieldtype": "Barcode",
+   "label": "barcode"
+  },
+  {
+   "fieldname": "button",
+   "fieldtype": "Button",
+   "label": "button"
+  },
+  {
+   "default": "0",
+   "fieldname": "check",
+   "fieldtype": "Check",
+   "label": "check"
+  },
+  {
+   "fieldname": "column_break_3m9l",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "html",
+   "fieldtype": "HTML",
+   "label": "HTML"
+  },
+  {
+   "fieldname": "multi",
+   "fieldtype": "Table MultiSelect",
+   "label": "multi",
+   "options": "student marks"
+  },
+  {
+   "depends_on": "eval:doc.type==\"true\"",
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "label": "name"
+  },
+  {
+   "fieldname": "type",
+   "fieldtype": "Select",
+   "label": "type",
+   "options": "true\nfalse"
+  },
+  {
+   "fieldname": "last_name",
+   "fieldtype": "Data",
+   "label": "last name"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-01-03 17:46:57.819035",
+ "modified_by": "Administrator",
+ "module": "Programming Module",
+ "name": "all doctype",
+ "naming_rule": "Expression (old style)",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
