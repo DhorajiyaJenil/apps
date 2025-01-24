@@ -1,34 +1,36 @@
 {
  "actions": [],
  "allow_rename": 1,
- "autoname": "Jenil.####",
- "creation": "2025-01-07 14:37:13.463277",
+ "autoname": "field:amenity",
+ "creation": "2025-01-22 16:47:07.895795",
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
-  "jenil",
-  "jay"
+  "amenity",
+  "amenity_price"
  ],
  "fields": [
   {
-   "fieldname": "jenil",
+   "fieldname": "amenity",
    "fieldtype": "Data",
-   "in_list_view": 1,
-   "label": "Jenil"
+   "label": "Amenity",
+   "unique": 1
   },
   {
-   "fieldname": "jay",
-   "fieldtype": "Data",
+   "allow_in_quick_entry": 1,
+   "fieldname": "amenity_price",
+   "fieldtype": "Currency",
    "in_list_view": 1,
-   "label": "jay"
+   "label": "Amenity Price",
+   "reqd": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-01-21 13:06:00.543670",
+ "modified": "2025-01-22 18:09:50.752562",
  "modified_by": "Administrator",
- "module": "Library Management",
- "name": "Library Member",
+ "module": "Programming Module",
+ "name": "Property Amenity Items",
  "naming_rule": "Expression (old style)",
  "owner": "Administrator",
  "permissions": [

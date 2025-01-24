@@ -1,34 +1,38 @@
 {
  "actions": [],
  "allow_rename": 1,
- "autoname": "Jenil.####",
- "creation": "2025-01-07 14:37:13.463277",
+ "autoname": " CON.#####",
+ "creation": "2025-01-21 12:37:18.833114",
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
-  "jenil",
-  "jay"
+  "first_name",
+  "date",
+  "password"
  ],
  "fields": [
   {
-   "fieldname": "jenil",
+   "fieldname": "first_name",
    "fieldtype": "Data",
-   "in_list_view": 1,
-   "label": "Jenil"
+   "label": "First Name"
   },
   {
-   "fieldname": "jay",
-   "fieldtype": "Data",
-   "in_list_view": 1,
-   "label": "jay"
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "password",
+   "fieldtype": "Password",
+   "label": "Password"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-01-21 13:06:00.543670",
+ "modified": "2025-01-21 12:38:28.557664",
  "modified_by": "Administrator",
- "module": "Library Management",
- "name": "Library Member",
+ "module": "Programming Module",
+ "name": "console",
  "naming_rule": "Expression (old style)",
  "owner": "Administrator",
  "permissions": [

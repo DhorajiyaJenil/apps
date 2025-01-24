@@ -27,6 +27,9 @@ app_license = "mit"
 # include js, css files in header of desk.html
 # app_include_css = "/assets/demo_app/css/demo_app.css"
 # app_include_js = "/assets/demo_app/js/demo_app.js"
+#   doctype_js = [
+# 		 "Second": "public/js/override.js"
+#  ]
 
 # include js, css files in header of web template
 # web_include_css = "/assets/demo_app/css/demo_app.css"
@@ -44,6 +47,9 @@ app_license = "mit"
 
 # include js in doctype views
 doctype_js = {"Customer" : "public/js/customer.js"}
+doctype_js = {
+ 		 "Second": "public/js/override.js"
+}
 # doctype_list_js = {"doctype" : "public/js/doctype_list.js"}
 # doctype_tree_js = {"doctype" : "public/js/doctype_tree.js"}
 # doctype_calendar_js = {"doctype" : "public/js/doctype_calendar.js"}
@@ -131,21 +137,20 @@ doctype_js = {"Customer" : "public/js/customer.js"}
 # Override standard doctype classes
 
 # override_doctype_class = {
-#     "Studentdoc": "demo_app.programming_module.overrides.JENILStudent"
-# }
-
-# doc_events = {
-#     "Studentdoc": {  # Ensure the correct DocType name here
-#         "validate": "demo_app.programming_module.events.validate"
-#     }
+#     "test": "demo_app.programming_module.test_override.test_override"
 # }
 
 doc_events = {
+    "Studentdoc": {  
+        "validate": "demo_app.programming_module.events.validate"
+    },
     "Customer": {
-        "after_save": "your_custom_app.count.update_customer_group_count"
-    }
+        "validate": "demo_app.programming_module.count.update_customer_group_count"
+    },
+	"test":{
+		"validate": "demo_app.programming_module.events.validate"
+	}
 }
-
 
 
 

@@ -1,35 +1,24 @@
 {
  "actions": [],
  "allow_rename": 1,
- "autoname": "Jenil.####",
- "creation": "2025-01-07 14:37:13.463277",
+ "creation": "2025-01-22 16:53:00.996477",
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
-  "jenil",
-  "jay"
+  "section_break_65yi"
  ],
  "fields": [
   {
-   "fieldname": "jenil",
-   "fieldtype": "Data",
-   "in_list_view": 1,
-   "label": "Jenil"
-  },
-  {
-   "fieldname": "jay",
-   "fieldtype": "Data",
-   "in_list_view": 1,
-   "label": "jay"
+   "fieldname": "section_break_65yi",
+   "fieldtype": "Section Break"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-01-21 13:06:00.543670",
+ "modified": "2025-01-22 16:53:00.996477",
  "modified_by": "Administrator",
- "module": "Library Management",
- "name": "Library Member",
- "naming_rule": "Expression (old style)",
+ "module": "Programming Module",
+ "name": "Agent",
  "owner": "Administrator",
  "permissions": [
   {

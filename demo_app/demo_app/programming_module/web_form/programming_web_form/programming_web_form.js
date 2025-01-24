@@ -1,19 +1,19 @@
  frappe.ready(function() {
  	// bind events here
 
-// 	frappe.web_form.after_load = () => {
-//  		frappe.msgprint('please fill all value carefully');
-//  	};
+	frappe.web_form.after_load = () => {
+ 		frappe.msgprint('please fill all value carefully');
+ 	};
 //  })
-            console.log("hello")
+    //         console.log("hello")
 
-    frappe.web_form.after_load = () => {
-        frappe.web_form.on('enable', (field, value) => {
-            console.log("hi")
-            frappe.msgprint('hi user');
-        });
+    // frappe.web_form.after_load = () => {
+    //     frappe.web_form.on('enable', (field, value) => {
+    //         console.log("hi")
+    //         frappe.msgprint('hi user');
+    //     });
         
-    }
+    // }
 
     // frappe.web_form.on('dob', (field, value) => {
     //     if(value) {

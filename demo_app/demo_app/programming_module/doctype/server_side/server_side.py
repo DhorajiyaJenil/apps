@@ -1,18 +1,19 @@
 # Copyright (c) 2024, D-codE and contributors
 # For license information, please see license.txt
 
-import frappe
-from frappe import _
-from frappe.model.document import Document
+#  import frappe
+#  from frappe import _
+#  from frappe.model.document import Document
 
-class serverside(Document):
-	@frappe.whitelist()
-	def frm_call(self,msg):
-		import time
-		time.sleep(5)
-		#frappe.msgprint(msg)
+#  class serverside(Document):
+# 	pass
+# 	@frappe.whitelist()
+# 	def frm_call(self,msg):
+# 		import time
+# 		time.sleep(5)
+# 		#frappe.msgprint(msg)
 
-		self.age = 78
+# 		self.age = 78
 
 
 	  #	return "hi this message from frm_call"

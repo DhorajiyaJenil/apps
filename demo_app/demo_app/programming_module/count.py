@@ -1,23 +1,20 @@
 import frappe
-import logging
+from frappe.model.document import Document
+from erpnext.selling.doctype.customer.customer import Customer
 
-# Create a logger
-logger = logging.getLogger(__name__)
+class Customer_xyz(Document):
+    def after_insert(self):
+        self.update_customer_group_count()
 
-@frappe.whitelist()
+    def on_update(self):
+         self.update_customer_group_count()
+
 def update_customer_group_count(doc, method):
+    print('asfafaf')
     if doc.customer_group:
-        # Query to count the number of customers in the selected customer group
         customer_count = frappe.db.count('Customer', filters={'customer_group': doc.customer_group})
         
-        # Log the customer group and the count
-        logger.info(f"Customer Group: {doc.customer_group}, Count: {customer_count}")
         
-        # Set the customer group count field
-        doc.customer_group_count = customer_count
-        doc.save()  # Save the updated count field to the database
-    else:
-        logger.info(f"No customer group selected for {doc.customer_name}")
-    
-    return doc
+        doc.custom_count = customer_count
+        
 
